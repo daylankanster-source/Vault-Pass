@@ -500,13 +500,13 @@
 
 <script>
 // ============ CONFIG ============
-const CONTRACT_ADDRESS = "0x0000000000000000000000000000000000000000"; // <-- replace after deploy
+const CONTRACT_ADDRESS = "0x58a569D6E263EeD52180969d5bd49745FAFa3Fdc"; // <-- replace after deploy
 const NETWORK = {
-  chainId: "0x3C8", // 968 testnet — swap to "0x2A5" for mainnet
-  chainName: "BOT Chain Testnet",
+  chainId: "0x2A5", // 968 testnet — swap to "0x2A5" for mainnet
+  chainName: "BOT Chain",
   nativeCurrency: { name: "BOT", symbol: "BOT", decimals: 18 },
-  rpcUrls: ["https://rpc.bohr.life"],
-  blockExplorerUrls: ["https://scan.bohr.life"],
+  rpcUrls: ["https://rpc.botchain.ai"],
+  blockExplorerUrls: ["https://scan.botchain.ai"],
 };
 const ABI = [
   "function mintPass(string brand, string model, string serial, string metadataURI, uint256 warrantyDays) payable returns (uint256)",
